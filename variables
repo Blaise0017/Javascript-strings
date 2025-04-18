@@ -1,0 +1,9 @@
+
+var myname = "Blaise";
+var yourname = prompt("what is your name?");
+alert("my name is" + "myname + ", welcome to my course " + yourname + "!");
+var gamelevel = 1;
+gamelevel = 2;
+gamelevel = 3;
+gamelevel = 4;
+alert("yourlevel is currently:" + gamelevel);
