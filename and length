@@ -1,0 +1,4 @@
+var tweet = prompt("what is your message:");
+var tweetcount = tweet.length
+
+alert("you have written " + tweetcount + " characters, you have " + (140- tweetcount) + "characters remaining.");
