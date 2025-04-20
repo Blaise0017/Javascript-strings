@@ -1,0 +1,46 @@
+
+ function sayHello(greeting, name) {
+             alert(greeting+ ' ' +name);
+         }
+          sayHello('Hello', 'Blaise');
+       
+
+         function sayHello(greeting, name = 'jake') {
+            alert(greeting+ ' ' +name);
+       }
+        sayHello('Hello');
+
+     function getsum(a, b){
+         alert(a + b);
+     }
+
+     getsum(4, 5);
+
+     function getsum(a, b){
+         return a + b;
+     }
+
+    var sum = getsum(4, 5);
+    console.log('the answer is '+sum);
+
+       function getdate() {
+        var d = new Date();
+              alert(d);
+
+       }
+              
+
+       function getdate(){
+           var d = new Date();
+              alert(d);
+       }
+
+       function getdate(){
+           var d = new Date();
+            document.getElementById('showDate').innerHTML = d;  
+       }
+  
+  
+        function submitform(){
+             alert('Form Submitted');
+        }
