@@ -1,0 +1,15 @@
+var cars = [
+        { make:'Ford', model:'mustang', year:1965
+
+        },
+
+        { make:'chevy', model:'mustang', year:1987
+
+        }, 
+        
+        { make:'toyota', model:'camry', year:2000
+
+        },
+
+       ];
+       console.log(cars[2]);
