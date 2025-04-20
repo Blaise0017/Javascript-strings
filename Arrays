@@ -1,0 +1,19 @@
+ var animals = ['Dog', 'Cat', 'cow'];
+       var animals = new Array('Dog', 'Cat', 'cow');
+        console.log(animaks[1]);
+
+        animals[3] = 'cow';
+
+        animals.push('pig');
+
+        console.log(animals[3]);
+        console.log(animals.length);
+        console.log(animals.sort());
+
+        var person = [];
+        person['name'] = 'john blaise;'
+        person['age'] = '29';
+        person['city'] = 'Nigeria';
+        console.log(person['name']);
+       var car ={make:'Ford', model:'mustang', year:1965,}
+       console.log(car.make);
