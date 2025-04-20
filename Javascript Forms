@@ -1,0 +1,22 @@
+  <button onclick="getdate()">get date</button>  
+    <h1 id="showDate"></h1>
+
+    <form onsubmit="submitform()">
+        <div>
+            <label>Name</label>
+            <input type="text" id="name">
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="text" id="email">
+        </div>
+        <input type="submit" value="submit">
+    </form>
+
+function submitform(){
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+
+             alert(name);
+        }
+        document.getElementById('my form').addEventListener('submit', submitform, false);
