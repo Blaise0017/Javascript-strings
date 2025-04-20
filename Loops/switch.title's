@@ -1,0 +1,43 @@
+   var people = [
+                {
+                    name:'samuel',
+                    age:'34'
+                },
+                {
+                    name:'emma',
+                    age:'30'
+                }, 
+                {
+                    name:'mike',
+                    age:'28'
+                },
+                {
+                    name:'blaise',
+                    age:'26'
+                }
+
+             ];
+
+             for(var i = 0;i < people.length;i++){
+                document.getElementById('people').innerHTML += '<li>'+people[i].name+' - '+people[i].age+'</li>';
+             }
+
+              
+             var name = 'grace';
+
+             switch (name) {
+                case 'blaise':
+                    console.log('my name is blaise');
+                    break;
+
+                    case 'patrick':
+                    console.log('my name is patrick');
+                    break;
+
+                    case 'abu':
+                    console.log('my name is abue');
+                    break;
+                default:
+                    console.log('my name is grace')
+                    break;
+             }
