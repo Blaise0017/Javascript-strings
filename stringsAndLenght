@@ -1,0 +1,2 @@
+var tweet = prompt("compose your tweet:");
+alert("you have written " + tweet.length + " characters, you have " + (140 - tweet.length) + " characters remaining");
