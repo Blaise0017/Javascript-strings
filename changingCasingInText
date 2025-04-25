@@ -1,0 +1,10 @@
+var name = "Blaise";
+name.toLowerCase();
+
+
+name.toUpperCase();
+
+
+
+name = name.touppercase();
+name = name.tolowercase();
