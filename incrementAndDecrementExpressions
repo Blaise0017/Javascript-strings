@@ -1,0 +1,13 @@
+// incrementExpressions 
+ var x = 5;
+ x = x + 1;
+ x++;
+ var y = 10;
+ y = y + 2;
+ y++;
+
+// decrementExpressions
+ var x = 26;
+ x = x - 2;
+var x = 6;
+x--;
