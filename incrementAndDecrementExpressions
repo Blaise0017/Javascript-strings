@@ -5,9 +5,15 @@
  var y = 10;
  y = y + 2;
  y++;
+var x = 5;
+var y = 3;
+x +=y;
 
 // decrementExpressions
  var x = 26;
  x = x - 2;
 var x = 6;
 x--;
+var x = 5;
+var y = 3;
+x -=y;
