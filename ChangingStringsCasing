@@ -1,0 +1,16 @@
+// Changing Strings Casing
+// 1 Create a var that stores users name via prompt
+var name = prompt("what is your name")
+// 2 Capitalize the first letter of their name 
+// a issolate the first Char 
+var firstChar = name.slice0(0,1);
+// b turn the first char uppercase
+var upperCaseFirstchar = firstChar.toupperCase();
+// c Issolate the rest of the name
+var restOfName = name.slice(1,name.length);
+// d change the rest of the name to lowercase
+restOfName = restOfName.toLowerCase();
+// e concatenate the fisrt char with the rest of the char
+var capitalizedName = upperCaseFirstchar + restOfName;
+3 We use the capitalized version of their name to greet them using an alert
+alert("Hello," + capitalizedName);
